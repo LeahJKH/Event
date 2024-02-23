@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #c2cad0;
+    color:#252525;
+    overflow-x: hidden;
+}
+
+/* COLORS
+#2A2D43 dark dark blue
+#414361 dark blue
+#F0F3F5 white
+#62929E blue
+#A188A6 pink
+/*
+
+/*BASE STYLING*/
+header {
+    background-color: #dcdacd;
+    color: rgb(232, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 17vh;
+    width: 100vw;
+    padding: 5px 20px;
+    margin-bottom: 27px;
+}
+main {
+  
+}
+footer {
+background-color: #2A2D43;
+color: #c2cad0;
+letter-spacing: 3px;
+font-size: 22px;
+font-weight: 100;
+text-align: center;
+height: 20vh;
+padding: 20px 0 0 0;
+}
+/*BASE STYLING*/
+
+/*ID'S*/
+#main-title {
+    font-family: "Roboto", sans-serif;
+}
+#main-info-contain {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+#logo-header {
+    width: 150px;
+   
+}
+#middle-break {
+    height: 150px;
+    overflow: hidden;
+}
+#middle-divider-image {
+    width: 100vw;
+   
+}
+#bottom-right-contain {
+    width: 50%;
+   
+   
+}
+#bottom-left-contain {
+    width: 50%;
+    padding: 10px;
+
+}
+#bottom-contain {
+    display: flex;
+    flex-direction: row;
+
+}
+#image-pc-bottom {
+    width: 200px;
+    margin: 10px;
+}
+#js-test {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    height: 162px;
+    align-items: center;
+    margin: 20px;
+    background-color: #2A2D43;
+    color: #c2cad0;
+}
+/*ID'S*/
+
+/*CLASSES*/
+.btn-base-styling {
+  background-color: #7aada9; 
+  color: #cad8cf;
+  border: none;
+  width: 100px;
+  height: 29px; 
+  border-radius: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+.btn-base-styling:hover {
+    background-color: #ca9b5d; 
+  }
+.info-cards-contain {
+    min-width: 180px;
+    max-width: 267px;
+    min-height: 150px;
+
+    margin: 10px;
+    background-color: #7aada9;
+    padding: 15px;
+    box-shadow: 1px -2px 4px black;
+    border-radius: 10px;
+}
+/*CLASSES*/
